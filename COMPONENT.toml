@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-audio-tuner"
-description = "SigmaOS subsystem component for audio-tuner"
+description = "Audio device tuner (EQ, profiles)"
 version = "0.1.0"
 tier = 5
 
