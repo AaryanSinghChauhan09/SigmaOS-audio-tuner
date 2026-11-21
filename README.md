@@ -1,6 +1,6 @@
 # SigmaOS-audio-tuner
 
-Audio device tuner (EQ, profiles)
+SigmaOS audio tuner component for SigmaOS
 
 - **Category:** System Services
 - **Engine:** audio_tuner
