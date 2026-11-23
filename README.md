@@ -1,4 +1,6 @@
-# omarchy-audio-tuner
+# fk-omarchy-audio-tuner
+
+> Forked from omacom/omarchy-audio-tuner (MIT). See `SIGMAOS_FORK.md`.
 
 Tools for authoring laptop speaker tunings for
 [Omarchy](https://github.com/basecamp/omarchy).
