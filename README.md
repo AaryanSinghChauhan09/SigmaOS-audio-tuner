@@ -162,3 +162,8 @@ These cost real time building the first tuning.
 ## License
 
 MIT, same as Omarchy.
+## Documentation
+
+Wiki documentation is available in the SigmaOS Wiki Staging repository:
+
+- [SigmaOS Wiki Staging](https://github.com/AaryanSinghChauhan09/sigmaos-wiki-staging#SigmaOS-audio-tuner) - Full Wiki documentation for all SigmaOS components
