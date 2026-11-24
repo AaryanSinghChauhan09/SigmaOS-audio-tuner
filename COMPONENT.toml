@@ -1,0 +1,10 @@
+[component]
+name = "audio-tuner"
+id = "sigmaos-audio-tuner"
+kind = "component"
+license = "GPL-3.0-or-later"
+
+[component.metadata]
+category = "sigmaos"
+branch = "main"
+docs = "github-wiki"
