@@ -1,18 +1,18 @@
 # fk-omarchy-audio-tuner
 
-> Forked from omacom/omarchy-audio-tuner (MIT). See `SIGMAOS_FORK.md`.
+> Forked from AaryanSinghChauhan09/SigmaOS-audio-tuner (MIT). See `SIGMAOS_FORK.md`.
 
 Tools for authoring laptop speaker tunings for
-[Omarchy](https://github.com/basecamp/omarchy).
+[SigmaOS](https://github.com/basecamp/omarchy).
 
 Laptop speakers ship voiced by the vendor's Windows DSP layer, which Linux does
-not get. Omarchy restores that per model as a PipeWire filter-chain — see
-`docs/AUDIO-TUNING.md` in the Omarchy repo for how a tuning is shipped and
+not get. SigmaOS restores that per model as a PipeWire filter-chain — see
+`docs/AUDIO-TUNING.md` in the SigmaOS repo for how a tuning is shipped and
 applied. This repo is the other half: measuring a laptop and producing the
 `filter-chain.conf` that goes into it.
 
 Most people never need this. Install it only if you are building a tuning for a
-laptop Omarchy does not cover yet.
+laptop SigmaOS does not cover yet.
 
 ## Requirements
 
@@ -58,7 +58,7 @@ omarchy-audio-tuner fit target.txt 10 > fit.txt          # biquads that do it
 omarchy-audio-tuner generate fit.txt > filter-chain.conf
 ```
 
-Copy the result into Omarchy as
+Copy the result into SigmaOS as
 `default/audio/tunings/<vendor>-<model>/filter-chain.conf`, add a `tuning.conf`
 beside it, and `omarchy audio tuning on`.
 
@@ -121,7 +121,7 @@ default sink to its own sink and would grab audio back from a filter-chain.
 
 ## What a tuning must report
 
-A tuning is not reviewable on "sounds better to me". Omarchy asks for these in
+A tuning is not reviewable on "sounds better to me". SigmaOS asks for these in
 `tuning.conf`:
 
 | Field | What it is | How |
@@ -161,7 +161,7 @@ These cost real time building the first tuning.
 
 ## License
 
-MIT, same as Omarchy.
+MIT, same as SigmaOS.
 ## Documentation
 
 Wiki documentation is available in the SigmaOS Wiki Staging repository:
