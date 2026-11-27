@@ -3,7 +3,7 @@
 > Forked from AaryanSinghChauhan09/SigmaOS-audio-tuner (MIT). See `SIGMAOS_FORK.md`.
 
 Tools for authoring laptop speaker tunings for
-[SigmaOS](https://github.com/basecamp/omarchy).
+[SigmaOS](https://github.com/AaryanSinghChauhan09/SigmaOS).
 
 Laptop speakers ship voiced by the vendor's Windows DSP layer, which Linux does
 not get. SigmaOS restores that per model as a PipeWire filter-chain — see
@@ -17,7 +17,7 @@ laptop SigmaOS does not cover yet.
 ## Requirements
 
 ```bash
-omarchy pkg add python ffmpeg mpv lsp-plugins-lv2
+sigmaos pkg add python ffmpeg mpv lsp-plugins-lv2
 ```
 
 `lsp-plugins-lv2` supplies the lookahead limiter every tuning ends in, so it is
@@ -60,7 +60,7 @@ sigmaos-audio-tuner generate fit.txt > filter-chain.conf
 
 Copy the result into SigmaOS as
 `default/audio/tunings/<vendor>-<model>/filter-chain.conf`, add a `tuning.conf`
-beside it, and `omarchy audio tuning on`.
+beside it, and `sigmaos audio tuning on`.
 
 A reference containing a compressor has no single response — it measures
 differently under different signals. The probe here is dense and pink-weighted for
